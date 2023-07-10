@@ -1,0 +1,869 @@
+Microsoft Windows [Version 10.0.19045.3086]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\xampp\htdocs\taleem360localmoh>php artisan key:generate
+
+In UrlGenerator.php line 119:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request,
+   null given, called in C:\xampp\htdocs\taleem360localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingSer
+  viceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>
+C:\xampp\htdocs\taleem360localmoh>php artisan cache:clear
+
+In UrlGenerator.php line 119:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request,
+   null given, called in C:\xampp\htdocs\taleem360localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingSer
+  viceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan cache:clear
+
+In UrlGenerator.php line 119:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request,
+   null given, called in C:\xampp\htdocs\taleem360localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingSer
+  viceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>rm -rf vendor
+'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\xampp\htdocs\taleem360localmoh>rm -rf vendor
+'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\xampp\htdocs\taleem360localmoh>rmdir /s /q vendor
+
+C:\xampp\htdocs\taleem360localmoh>
+C:\xampp\htdocs\taleem360localmoh>rmdir /s /q vendor
+The system cannot find the file specified.
+
+C:\xampp\htdocs\taleem360localmoh>php artisan cache:clear
+PHP Warning:  require(C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+Warning: require(C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+PHP Fatal error:  require(): Failed opening required 'C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+Fatal error: require(): Failed opening required 'C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+C:\xampp\htdocs\taleem360localmoh>php artisan config:clear
+PHP Warning:  require(C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+Warning: require(C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+PHP Fatal error:  require(): Failed opening required 'C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+Fatal error: require(): Failed opening required 'C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+C:\xampp\htdocs\taleem360localmoh>composer install
+Installing dependencies from lock file (including require-dev)
+Verifying lock file contents can be installed on current platform.
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. It is recommended that you run `composer update` or `composer update <package name>`.
+Package operations: 99 installs, 0 updates, 0 removals
+  - Installing vlucas/phpdotenv (v2.5.1): Extracting archive
+  - Installing symfony/css-selector (v4.1.7): Extracting archive
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.1): Extracting archive
+  - Installing symfony/polyfill-php72 (v1.10.0): Extracting archive
+  - Installing symfony/polyfill-mbstring (v1.10.0): Extracting archive
+  - Installing symfony/var-dumper (v4.1.7): Extracting archive
+  - Installing symfony/routing (v4.1.7): Extracting archive
+  - Installing symfony/process (v4.1.7): Extracting archive
+  - Installing symfony/polyfill-ctype (v1.10.0): Extracting archive
+  - Installing symfony/http-foundation (v4.1.7): Extracting archive
+  - Installing symfony/event-dispatcher (v4.1.7): Extracting archive
+  - Installing psr/log (1.1.0): Extracting archive
+  - Installing symfony/debug (v4.1.7): Extracting archive
+  - Installing symfony/http-kernel (v4.1.7): Extracting archive
+  - Installing symfony/finder (v4.1.7): Extracting archive
+  - Installing symfony/console (v4.1.7): Extracting archive
+  - Installing doctrine/lexer (v1.0.1): Extracting archive
+  - Installing egulias/email-validator (2.1.6): Extracting archive
+  - Installing swiftmailer/swiftmailer (v6.1.3): Extracting archive
+  - Installing paragonie/random_compat (v9.99.99): Extracting archive
+  - Installing ramsey/uuid (3.8.0): Extracting archive
+  - Installing psr/simple-cache (1.0.1): Extracting archive
+  - Installing psr/container (1.0.0): Extracting archive
+  - Installing opis/closure (3.1.1): Extracting archive
+  - Installing symfony/translation (v4.1.7): Extracting archive
+  - Installing nesbot/carbon (1.36.1): Extracting archive
+  - Installing monolog/monolog (1.24.0): Extracting archive
+  - Installing league/flysystem (1.0.49): Extracting archive
+  - Installing erusev/parsedown (1.7.1): Extracting archive
+  - Installing dragonmantank/cron-expression (v2.2.0): Extracting archive
+  - Installing doctrine/inflector (v1.3.0): Extracting archive
+  - Installing laravel/framework (v5.7.14): Extracting archive
+  - Installing ralouphie/getallheaders (2.0.5): Extracting archive
+  - Installing psr/http-message (1.0.1): Extracting archive
+  - Installing guzzlehttp/psr7 (1.5.2): Extracting archive
+  - Installing guzzlehttp/promises (v1.3.1): Extracting archive
+  - Installing guzzlehttp/guzzle (6.3.3): Extracting archive
+  - Installing albertcht/invisible-recaptcha (v1.8.4): Extracting archive
+  - Installing beyondcode/laravel-dump-server (1.2.2): Extracting archive
+  - Installing fideloper/proxy (4.0.0): Extracting archive
+  - Installing fzaninotto/faker (v1.8.0): Extracting archive
+  - Installing ied3vil/language-switcher (1.1.1): Extracting archive
+  - Installing jakub-onderka/php-console-color (v0.2): Extracting archive
+  - Installing league/oauth1-client (1.7.0): Extracting archive
+  - Installing laravel/socialite (v4.2.0): Extracting archive
+  - Installing nikic/php-parser (v4.1.0): Extracting archive
+  - Installing jakub-onderka/php-console-highlighter (v0.4): Extracting archive
+  - Installing dnoegel/php-xdg-base-dir (0.1): Extracting archive
+  - Installing psy/psysh (v0.9.9): Extracting archive
+  - Installing laravel/tinker (v1.0.8): Extracting archive
+  - Installing mtdowling/jmespath.php (2.5.0): Extracting archive
+  - Installing aws/aws-sdk-php (3.133.2): Extracting archive
+  - Installing league/flysystem-aws-s3-v3 (1.0.23): Extracting archive
+  - Installing markbaker/complex (1.4.7): Extracting archive
+  - Installing phpoffice/phpspreadsheet (1.5.2): Extracting archive
+  - Installing maatwebsite/excel (3.1.3): Extracting archive
+  - Installing intervention/image (2.4.2): Extracting archive
+  - Installing mews/captcha (2.3.0): Extracting archive
+  - Installing hamcrest/hamcrest-php (v2.0.0): Extracting archive
+  - Installing mockery/mockery (1.2.0): Extracting archive
+  - Installing filp/whoops (2.3.1): Extracting archive
+  - Installing nunomaduro/collision (v2.1.1): Extracting archive
+  - Installing webmozart/assert (1.3.0): Extracting archive
+  - Installing phpdocumentor/reflection-common (1.0.1): Extracting archive
+  - Installing phpdocumentor/type-resolver (0.4.0): Extracting archive
+  - Installing phpdocumentor/reflection-docblock (4.3.0): Extracting archive
+  - Installing phpunit/php-token-stream (3.0.1): Extracting archive
+  - Installing sebastian/version (2.0.1): Extracting archive
+  - Installing sebastian/resource-operations (2.0.1): Extracting archive
+  - Installing sebastian/recursion-context (3.0.0): Extracting archive
+  - Installing sebastian/object-reflector (1.1.1): Extracting archive
+  - Installing sebastian/object-enumerator (3.0.3): Extracting archive
+  - Installing sebastian/global-state (2.0.0): Extracting archive
+  - Installing sebastian/exporter (3.1.0): Extracting archive
+  - Installing sebastian/environment (4.0.1): Extracting archive
+  - Installing sebastian/diff (3.0.1): Extracting archive
+  - Installing sebastian/comparator (3.0.2): Extracting archive
+  - Installing phpunit/php-timer (2.0.0): Extracting archive
+  - Installing phpunit/php-text-template (1.2.1): Extracting archive
+  - Installing phpunit/php-file-iterator (2.0.2): Extracting archive
+  - Installing theseer/tokenizer (1.1.0): Extracting archive
+  - Installing sebastian/code-unit-reverse-lookup (1.0.1): Extracting archive
+  - Installing phpunit/php-code-coverage (6.1.4): Extracting archive
+  - Installing doctrine/instantiator (1.1.0): Extracting archive
+  - Installing phpspec/prophecy (1.8.0): Extracting archive
+  - Installing phar-io/version (2.0.1): Extracting archive
+  - Installing phar-io/manifest (1.0.3): Extracting archive
+  - Installing myclabs/deep-copy (1.8.1): Extracting archive
+  - Installing phpunit/phpunit (7.4.4): Extracting archive
+  - Installing risul/laravel-like-comment (v2.0.0): Extracting archive
+  - Installing spatie/laravel-translatable (3.1.3): Extracting archive
+  - Installing yajra/laravel-datatables-oracle (v8.13.1): Extracting archive
+  - Installing laravelcollective/html (v5.7.1): Extracting archive
+  - Installing yajra/laravel-datatables-html (v4.3.1): Extracting archive
+  - Installing league/fractal (0.17.0): Extracting archive
+  - Installing yajra/laravel-datatables-fractal (v1.3.0): Extracting archive
+  - Installing yajra/laravel-datatables-buttons (v4.5.0): Extracting archive
+  - Installing yajra/laravel-datatables-editor (v1.6.1): Extracting archive
+  - Installing yajra/laravel-datatables (v1.4.0): Extracting archive
+Generating optimized autoload files
+Class Egulias\EmailValidator\Exception\ExpectedQPair located in C:/xampp/htdocs/taleem360localmoh/vendor/egulias/email-validator/EmailValidator\Exception\ExpectingQPair.php does not comply with psr-4 autoloading standard. Skipping.
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+In UrlGenerator.php line 119:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 1
+
+C:\xampp\htdocs\taleem360localmoh>
+C:\xampp\htdocs\taleem360localmoh>php artisan cache:clear
+
+In UrlGenerator.php line 119:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>rmdir /s /q vendor
+
+C:\xampp\htdocs\taleem360localmoh>
+C:\xampp\htdocs\taleem360localmoh>php artisan key:generate
+PHP Warning:  require(C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+Warning: require(C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+PHP Fatal error:  require(): Failed opening required 'C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+Fatal error: require(): Failed opening required 'C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+C:\xampp\htdocs\taleem360localmoh>
+C:\xampp\htdocs\taleem360localmoh>php artisan config:clear
+PHP Warning:  require(C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+Warning: require(C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php): failed to open stream: No such file or directory in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+PHP Fatal error:  require(): Failed opening required 'C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+Fatal error: require(): Failed opening required 'C:\xampp\htdocs\taleem360localmoh/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\taleem360localmoh\artisan on line 18
+
+C:\xampp\htdocs\taleem360localmoh>composer install
+Installing dependencies from lock file (including require-dev)
+Verifying lock file contents can be installed on current platform.
+Warning: The lock file is not up to date with the latest changes in composer.json. You may be getting outdated dependencies. It is recommended that you run `composer update` or `composer update <package name>`.
+Package operations: 99 installs, 0 updates, 0 removals
+  - Installing vlucas/phpdotenv (v2.5.1): Extracting archive
+  - Installing symfony/css-selector (v4.1.7): Extracting archive
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.1): Extracting archive
+  - Installing symfony/polyfill-php72 (v1.10.0): Extracting archive
+  - Installing symfony/polyfill-mbstring (v1.10.0): Extracting archive
+  - Installing symfony/var-dumper (v4.1.7): Extracting archive
+  - Installing symfony/routing (v4.1.7): Extracting archive
+  - Installing symfony/process (v4.1.7): Extracting archive
+  - Installing symfony/polyfill-ctype (v1.10.0): Extracting archive
+  - Installing symfony/http-foundation (v4.1.7): Extracting archive
+  - Installing symfony/event-dispatcher (v4.1.7): Extracting archive
+  - Installing psr/log (1.1.0): Extracting archive
+  - Installing symfony/debug (v4.1.7): Extracting archive
+  - Installing symfony/http-kernel (v4.1.7): Extracting archive
+  - Installing symfony/finder (v4.1.7): Extracting archive
+  - Installing symfony/console (v4.1.7): Extracting archive
+  - Installing doctrine/lexer (v1.0.1): Extracting archive
+  - Installing egulias/email-validator (2.1.6): Extracting archive
+  - Installing swiftmailer/swiftmailer (v6.1.3): Extracting archive
+  - Installing paragonie/random_compat (v9.99.99): Extracting archive
+  - Installing ramsey/uuid (3.8.0): Extracting archive
+  - Installing psr/simple-cache (1.0.1): Extracting archive
+  - Installing psr/container (1.0.0): Extracting archive
+  - Installing opis/closure (3.1.1): Extracting archive
+  - Installing symfony/translation (v4.1.7): Extracting archive
+  - Installing nesbot/carbon (1.36.1): Extracting archive
+  - Installing monolog/monolog (1.24.0): Extracting archive
+  - Installing league/flysystem (1.0.49): Extracting archive
+  - Installing erusev/parsedown (1.7.1): Extracting archive
+  - Installing dragonmantank/cron-expression (v2.2.0): Extracting archive
+  - Installing doctrine/inflector (v1.3.0): Extracting archive
+  - Installing laravel/framework (v5.7.14): Extracting archive
+  - Installing ralouphie/getallheaders (2.0.5): Extracting archive
+  - Installing psr/http-message (1.0.1): Extracting archive
+  - Installing guzzlehttp/psr7 (1.5.2): Extracting archive
+  - Installing guzzlehttp/promises (v1.3.1): Extracting archive
+  - Installing guzzlehttp/guzzle (6.3.3): Extracting archive
+  - Installing albertcht/invisible-recaptcha (v1.8.4): Extracting archive
+  - Installing beyondcode/laravel-dump-server (1.2.2): Extracting archive
+  - Installing fideloper/proxy (4.0.0): Extracting archive
+  - Installing fzaninotto/faker (v1.8.0): Extracting archive
+  - Installing ied3vil/language-switcher (1.1.1): Extracting archive
+  - Installing jakub-onderka/php-console-color (v0.2): Extracting archive
+  - Installing league/oauth1-client (1.7.0): Extracting archive
+  - Installing laravel/socialite (v4.2.0): Extracting archive
+  - Installing nikic/php-parser (v4.1.0): Extracting archive
+  - Installing jakub-onderka/php-console-highlighter (v0.4): Extracting archive
+  - Installing dnoegel/php-xdg-base-dir (0.1): Extracting archive
+  - Installing psy/psysh (v0.9.9): Extracting archive
+  - Installing laravel/tinker (v1.0.8): Extracting archive
+  - Installing mtdowling/jmespath.php (2.5.0): Extracting archive
+  - Installing aws/aws-sdk-php (3.133.2): Extracting archive
+  - Installing league/flysystem-aws-s3-v3 (1.0.23): Extracting archive
+  - Installing markbaker/complex (1.4.7): Extracting archive
+  - Installing phpoffice/phpspreadsheet (1.5.2): Extracting archive
+  - Installing maatwebsite/excel (3.1.3): Extracting archive
+  - Installing intervention/image (2.4.2): Extracting archive
+  - Installing mews/captcha (2.3.0): Extracting archive
+  - Installing hamcrest/hamcrest-php (v2.0.0): Extracting archive
+  - Installing mockery/mockery (1.2.0): Extracting archive
+  - Installing filp/whoops (2.3.1): Extracting archive
+  - Installing nunomaduro/collision (v2.1.1): Extracting archive
+  - Installing webmozart/assert (1.3.0): Extracting archive
+  - Installing phpdocumentor/reflection-common (1.0.1): Extracting archive
+  - Installing phpdocumentor/type-resolver (0.4.0): Extracting archive
+  - Installing phpdocumentor/reflection-docblock (4.3.0): Extracting archive
+  - Installing phpunit/php-token-stream (3.0.1): Extracting archive
+  - Installing sebastian/version (2.0.1): Extracting archive
+  - Installing sebastian/resource-operations (2.0.1): Extracting archive
+  - Installing sebastian/recursion-context (3.0.0): Extracting archive
+  - Installing sebastian/object-reflector (1.1.1): Extracting archive
+  - Installing sebastian/object-enumerator (3.0.3): Extracting archive
+  - Installing sebastian/global-state (2.0.0): Extracting archive
+  - Installing sebastian/exporter (3.1.0): Extracting archive
+  - Installing sebastian/environment (4.0.1): Extracting archive
+  - Installing sebastian/diff (3.0.1): Extracting archive
+  - Installing sebastian/comparator (3.0.2): Extracting archive
+  - Installing phpunit/php-timer (2.0.0): Extracting archive
+  - Installing phpunit/php-text-template (1.2.1): Extracting archive
+  - Installing phpunit/php-file-iterator (2.0.2): Extracting archive
+  - Installing theseer/tokenizer (1.1.0): Extracting archive
+  - Installing sebastian/code-unit-reverse-lookup (1.0.1): Extracting archive
+  - Installing phpunit/php-code-coverage (6.1.4): Extracting archive
+  - Installing doctrine/instantiator (1.1.0): Extracting archive
+  - Installing phpspec/prophecy (1.8.0): Extracting archive
+  - Installing phar-io/version (2.0.1): Extracting archive
+  - Installing phar-io/manifest (1.0.3): Extracting archive
+  - Installing myclabs/deep-copy (1.8.1): Extracting archive
+  - Installing phpunit/phpunit (7.4.4): Extracting archive
+  - Installing risul/laravel-like-comment (v2.0.0): Extracting archive
+  - Installing spatie/laravel-translatable (3.1.3): Extracting archive
+  - Installing yajra/laravel-datatables-oracle (v8.13.1): Extracting archive
+  - Installing laravelcollective/html (v5.7.1): Extracting archive
+  - Installing yajra/laravel-datatables-html (v4.3.1): Extracting archive
+  - Installing league/fractal (0.17.0): Extracting archive
+  - Installing yajra/laravel-datatables-fractal (v1.3.0): Extracting archive
+  - Installing yajra/laravel-datatables-buttons (v4.5.0): Extracting archive
+  - Installing yajra/laravel-datatables-editor (v1.6.1): Extracting archive
+  - Installing yajra/laravel-datatables (v1.4.0): Extracting archive
+Generating optimized autoload files
+Class Egulias\EmailValidator\Exception\ExpectedQPair located in C:/xampp/htdocs/taleem360localmoh/vendor/egulias/email-validator/EmailValidator\Exception\ExpectingQPair.php does not comply with psr-4 autoloading standard. Skipping.
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+In UrlGenerator.php line 119:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 1
+
+C:\xampp\htdocs\taleem360localmoh>
+C:\xampp\htdocs\taleem360localmoh>rmdir /s /q vendor
+
+C:\xampp\htdocs\taleem360localmoh>del composer.lock
+
+C:\xampp\htdocs\taleem360localmoh>
+C:\xampp\htdocs\taleem360localmoh>composer self-update
+Upgrading to version 2.5.8 (stable channel).
+
+Unable to write "C:\ProgramData\ComposerSetup\bin\composer.phar". Access is denied.
+Complete this operation with Administrator privileges [Y,n]? n
+Operation cancelled. Please run the self-update command as an Administrator.
+
+C:\xampp\htdocs\taleem360localmoh>composer install
+No composer.lock file present. Updating dependencies to latest instead of installing from lock file. See https://getcomposer.org/install for more information.
+Loading composer repositories with package information
+Info from https://repo.packagist.org: #StandWithUkraine
+Updating dependencies
+Lock file operations: 125 installs, 0 updates, 0 removals
+  - Locking albertcht/invisible-recaptcha (v1.9.7)
+  - Locking beyondcode/laravel-dump-server (1.3.0)
+  - Locking dnoegel/php-xdg-base-dir (v0.1.1)
+  - Locking doctrine/deprecations (v1.1.1)
+  - Locking doctrine/inflector (1.4.4)
+  - Locking doctrine/instantiator (1.5.0)
+  - Locking doctrine/lexer (2.1.0)
+  - Locking dragonmantank/cron-expression (v2.3.1)
+  - Locking egulias/email-validator (3.2.6)
+  - Locking erusev/parsedown (1.7.4)
+  - Locking ezyang/htmlpurifier (v4.16.0)
+  - Locking fideloper/proxy (4.4.2)
+  - Locking filp/whoops (2.15.2)
+  - Locking fzaninotto/faker (v1.9.2)
+  - Locking guzzlehttp/guzzle (6.5.8)
+  - Locking guzzlehttp/promises (1.5.3)
+  - Locking guzzlehttp/psr7 (1.9.1)
+  - Locking hamcrest/hamcrest-php (v2.0.1)
+  - Locking ied3vil/language-switcher (1.1.1)
+  - Locking intervention/image (2.7.2)
+  - Locking jakub-onderka/php-console-color (v0.2)
+  - Locking jakub-onderka/php-console-highlighter (v0.4)
+  - Locking kylekatarnls/update-helper (1.2.1)
+  - Locking laravel/framework (v5.7.29)
+  - Locking laravel/nexmo-notification-channel (v1.0.1)
+  - Locking laravel/slack-notification-channel (v1.0.3)
+  - Locking laravel/socialite (v4.4.1)
+  - Locking laravel/tinker (v1.0.10)
+  - Locking laravelcollective/html (v5.7.1)
+  - Locking lcobucci/jwt (3.4.6)
+  - Locking league/flysystem (1.1.10)
+  - Locking league/fractal (0.19.2)
+  - Locking league/mime-type-detection (1.11.0)
+  - Locking league/oauth1-client (v1.10.1)
+  - Locking maatwebsite/excel (3.1.25)
+  - Locking maennchen/zipstream-php (2.1.0)
+  - Locking markbaker/complex (3.0.2)
+  - Locking markbaker/matrix (3.0.1)
+  - Locking mockery/mockery (1.3.6)
+  - Locking monolog/monolog (1.27.1)
+  - Locking myclabs/deep-copy (1.11.1)
+  - Locking myclabs/php-enum (1.8.4)
+  - Locking nesbot/carbon (1.39.1)
+  - Locking nexmo/client (1.9.1)
+  - Locking nexmo/client-core (1.8.1)
+  - Locking nikic/php-parser (v4.16.0)
+  - Locking nunomaduro/collision (v2.1.1)
+  - Locking opis/closure (3.6.3)
+  - Locking paragonie/random_compat (v9.99.100)
+  - Locking phar-io/manifest (1.0.3)
+  - Locking phar-io/version (2.0.1)
+  - Locking php-http/guzzle6-adapter (v1.1.1)
+  - Locking php-http/httplug (v1.1.0)
+  - Locking php-http/promise (1.1.0)
+  - Locking phpdocumentor/reflection-common (2.2.0)
+  - Locking phpdocumentor/reflection-docblock (5.3.0)
+  - Locking phpdocumentor/type-resolver (1.6.1)
+  - Locking phpoffice/phpspreadsheet (1.25.2)
+  - Locking phpspec/prophecy (v1.17.0)
+  - Locking phpunit/php-code-coverage (6.1.4)
+  - Locking phpunit/php-file-iterator (2.0.5)
+  - Locking phpunit/php-text-template (1.2.1)
+  - Locking phpunit/php-timer (2.1.3)
+  - Locking phpunit/php-token-stream (3.1.3)
+  - Locking phpunit/phpunit (7.5.20)
+  - Locking psr/container (1.1.1)
+  - Locking psr/http-client (1.0.2)
+  - Locking psr/http-factory (1.0.2)
+  - Locking psr/http-message (1.1)
+  - Locking psr/log (1.1.4)
+  - Locking psr/simple-cache (1.0.1)
+  - Locking psy/psysh (v0.9.12)
+  - Locking ralouphie/getallheaders (3.0.3)
+  - Locking ramsey/uuid (3.9.7)
+  - Locking risul/laravel-like-comment (v2.0.1)
+  - Locking sebastian/code-unit-reverse-lookup (1.0.2)
+  - Locking sebastian/comparator (3.0.5)
+  - Locking sebastian/diff (3.0.4)
+  - Locking sebastian/environment (4.2.4)
+  - Locking sebastian/exporter (3.1.5)
+  - Locking sebastian/global-state (2.0.0)
+  - Locking sebastian/object-enumerator (3.0.4)
+  - Locking sebastian/object-reflector (1.1.2)
+  - Locking sebastian/recursion-context (3.0.1)
+  - Locking sebastian/resource-operations (2.0.2)
+  - Locking sebastian/version (2.0.1)
+  - Locking spatie/laravel-translatable (3.1.3)
+  - Locking swiftmailer/swiftmailer (v6.3.0)
+  - Locking symfony/console (v4.4.49)
+  - Locking symfony/css-selector (v5.4.21)
+  - Locking symfony/debug (v4.4.44)
+  - Locking symfony/deprecation-contracts (v2.5.2)
+  - Locking symfony/error-handler (v4.4.44)
+  - Locking symfony/event-dispatcher (v4.4.44)
+  - Locking symfony/event-dispatcher-contracts (v1.1.13)
+  - Locking symfony/finder (v4.4.44)
+  - Locking symfony/http-client-contracts (v2.5.2)
+  - Locking symfony/http-foundation (v4.4.49)
+  - Locking symfony/http-kernel (v4.4.50)
+  - Locking symfony/mime (v5.4.23)
+  - Locking symfony/polyfill-ctype (v1.27.0)
+  - Locking symfony/polyfill-iconv (v1.27.0)
+  - Locking symfony/polyfill-intl-idn (v1.27.0)
+  - Locking symfony/polyfill-intl-normalizer (v1.27.0)
+  - Locking symfony/polyfill-mbstring (v1.27.0)
+  - Locking symfony/polyfill-php72 (v1.27.0)
+  - Locking symfony/polyfill-php73 (v1.27.0)
+  - Locking symfony/polyfill-php80 (v1.27.0)
+  - Locking symfony/process (v4.4.44)
+  - Locking symfony/routing (v4.4.44)
+  - Locking symfony/service-contracts (v2.5.2)
+  - Locking symfony/translation (v4.4.47)
+  - Locking symfony/translation-contracts (v2.5.2)
+  - Locking symfony/var-dumper (v4.4.47)
+  - Locking theseer/tokenizer (1.2.1)
+  - Locking tijsverkoyen/css-to-inline-styles (2.2.6)
+  - Locking vlucas/phpdotenv (v2.6.9)
+  - Locking webmozart/assert (1.11.0)
+  - Locking yajra/laravel-datatables (v1.5.0)
+  - Locking yajra/laravel-datatables-buttons (v4.13.3)
+  - Locking yajra/laravel-datatables-editor (v1.25.4)
+  - Locking yajra/laravel-datatables-fractal (v1.6.0)
+  - Locking yajra/laravel-datatables-html (v4.30.0)
+  - Locking yajra/laravel-datatables-oracle (v8.13.7)
+  - Locking zendframework/zend-diactoros (2.2.1)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 125 installs, 0 updates, 0 removals
+  - Downloading nikic/php-parser (v4.16.0)
+kylekatarnls/update-helper contains a Composer plugin which is currently not in your allow-plugins config. See https://getcomposer.org/allow-plugins
+Do you trust "kylekatarnls/update-helper" to execute code and wish to enable it now? (writes "allow-plugins" to composer.json) [y,n,d,?]
+y - add package to allow-plugins in composer.json and let it run immediately
+n - add package (as disallowed) to allow-plugins in composer.json to suppress further prompts
+d - discard this, do not change composer.json and do not allow the plugin to run
+? - print help
+Do you trust "kylekatarnls/update-helper" to execute code and wish to enable it now? (writes "allow-plugins" to composer.json) [y,n,d,?] y
+  - Installing kylekatarnls/update-helper (1.2.1): Extracting archive
+  - Installing symfony/polyfill-ctype (v1.27.0): Extracting archive
+  - Installing vlucas/phpdotenv (v2.6.9): Extracting archive
+  - Installing symfony/polyfill-php80 (v1.27.0): Extracting archive
+  - Installing symfony/css-selector (v5.4.21): Extracting archive
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.6): Extracting archive
+  - Installing symfony/polyfill-php72 (v1.27.0): Extracting archive
+  - Installing symfony/polyfill-mbstring (v1.27.0): Extracting archive
+  - Installing symfony/var-dumper (v4.4.47): Extracting archive
+  - Installing symfony/routing (v4.4.44): Extracting archive
+  - Installing symfony/process (v4.4.44): Extracting archive
+  - Installing symfony/polyfill-php73 (v1.27.0): Extracting archive
+  - Installing symfony/polyfill-intl-normalizer (v1.27.0): Extracting archive
+  - Installing symfony/polyfill-intl-idn (v1.27.0): Extracting archive
+  - Installing symfony/deprecation-contracts (v2.5.2): Extracting archive
+  - Installing symfony/mime (v5.4.23): Extracting archive
+  - Installing symfony/http-foundation (v4.4.49): Extracting archive
+  - Installing symfony/http-client-contracts (v2.5.2): Extracting archive
+  - Installing symfony/event-dispatcher-contracts (v1.1.13): Extracting archive
+  - Installing symfony/event-dispatcher (v4.4.44): Extracting archive
+  - Installing psr/log (1.1.4): Extracting archive
+  - Installing symfony/debug (v4.4.44): Extracting archive
+  - Installing symfony/error-handler (v4.4.44): Extracting archive
+  - Installing symfony/http-kernel (v4.4.50): Extracting archive
+  - Installing symfony/finder (v4.4.44): Extracting archive
+  - Installing psr/container (1.1.1): Extracting archive
+  - Installing symfony/service-contracts (v2.5.2): Extracting archive
+  - Installing symfony/console (v4.4.49): Extracting archive
+  - Installing symfony/polyfill-iconv (v1.27.0): Extracting archive
+  - Installing doctrine/deprecations (v1.1.1): Extracting archive
+  - Installing doctrine/lexer (2.1.0): Extracting archive
+  - Installing egulias/email-validator (3.2.6): Extracting archive
+  - Installing swiftmailer/swiftmailer (v6.3.0): Extracting archive
+  - Installing paragonie/random_compat (v9.99.100): Extracting archive
+  - Installing ramsey/uuid (3.9.7): Extracting archive
+  - Installing psr/simple-cache (1.0.1): Extracting archive
+  - Installing opis/closure (3.6.3): Extracting archive
+  - Installing symfony/translation-contracts (v2.5.2): Extracting archive
+  - Installing symfony/translation (v4.4.47): Extracting archive
+  - Installing nesbot/carbon (1.39.1): Extracting archive
+  - Installing monolog/monolog (1.27.1): Extracting archive
+  - Installing league/mime-type-detection (1.11.0): Extracting archive
+  - Installing league/flysystem (1.1.10): Extracting archive
+  - Installing ralouphie/getallheaders (3.0.3): Extracting archive
+  - Installing psr/http-message (1.1): Extracting archive
+  - Installing guzzlehttp/psr7 (1.9.1): Extracting archive
+  - Installing guzzlehttp/promises (1.5.3): Extracting archive
+  - Installing guzzlehttp/guzzle (6.5.8): Extracting archive
+  - Installing laravel/slack-notification-channel (v1.0.3): Extracting archive
+  - Installing php-http/promise (1.1.0): Extracting archive
+  - Installing php-http/httplug (v1.1.0): Extracting archive
+  - Installing php-http/guzzle6-adapter (v1.1.1): Extracting archive
+  - Installing psr/http-factory (1.0.2): Extracting archive
+  - Installing zendframework/zend-diactoros (2.2.1): Extracting archive
+  - Installing lcobucci/jwt (3.4.6): Extracting archive
+  - Installing nexmo/client-core (1.8.1): Extracting archive
+  - Installing nexmo/client (1.9.1): Extracting archive
+  - Installing laravel/nexmo-notification-channel (v1.0.1): Extracting archive
+  - Installing erusev/parsedown (1.7.4): Extracting archive
+  - Installing dragonmantank/cron-expression (v2.3.1): Extracting archive
+  - Installing doctrine/inflector (1.4.4): Extracting archive
+  - Installing laravel/framework (v5.7.29): Extracting archive
+  - Installing albertcht/invisible-recaptcha (v1.9.7): Extracting archive
+  - Installing beyondcode/laravel-dump-server (1.3.0): Extracting archive
+  - Installing fideloper/proxy (4.4.2): Extracting archive
+  - Installing fzaninotto/faker (v1.9.2): Extracting archive
+  - Installing ied3vil/language-switcher (1.1.1): Extracting archive
+  - Installing intervention/image (2.7.2): Extracting archive
+  - Installing jakub-onderka/php-console-color (v0.2): Extracting archive
+  - Installing league/oauth1-client (v1.10.1): Extracting archive
+  - Installing laravel/socialite (v4.4.1): Extracting archive
+  - Installing nikic/php-parser (v4.16.0): Extracting archive
+  - Installing jakub-onderka/php-console-highlighter (v0.4): Extracting archive
+  - Installing dnoegel/php-xdg-base-dir (v0.1.1): Extracting archive
+  - Installing psy/psysh (v0.9.12): Extracting archive
+  - Installing laravel/tinker (v1.0.10): Extracting archive
+  - Installing hamcrest/hamcrest-php (v2.0.1): Extracting archive
+  - Installing mockery/mockery (1.3.6): Extracting archive
+  - Installing myclabs/php-enum (1.8.4): Extracting archive
+  - Installing filp/whoops (2.15.2): Extracting archive
+  - Installing nunomaduro/collision (v2.1.1): Extracting archive
+  - Installing webmozart/assert (1.11.0): Extracting archive
+  - Installing phpdocumentor/reflection-common (2.2.0): Extracting archive
+  - Installing phpdocumentor/type-resolver (1.6.1): Extracting archive
+  - Installing phpdocumentor/reflection-docblock (5.3.0): Extracting archive
+  - Installing psr/http-client (1.0.2): Extracting archive
+  - Installing markbaker/matrix (3.0.1): Extracting archive
+  - Installing markbaker/complex (3.0.2): Extracting archive
+  - Installing maennchen/zipstream-php (2.1.0): Extracting archive
+  - Installing ezyang/htmlpurifier (v4.16.0): Extracting archive
+  - Installing phpoffice/phpspreadsheet (1.25.2): Extracting archive
+  - Installing phpunit/php-token-stream (3.1.3): Extracting archive
+  - Installing sebastian/version (2.0.1): Extracting archive
+  - Installing sebastian/resource-operations (2.0.2): Extracting archive
+  - Installing sebastian/recursion-context (3.0.1): Extracting archive
+  - Installing sebastian/object-reflector (1.1.2): Extracting archive
+  - Installing sebastian/object-enumerator (3.0.4): Extracting archive
+  - Installing sebastian/global-state (2.0.0): Extracting archive
+  - Installing sebastian/exporter (3.1.5): Extracting archive
+  - Installing sebastian/environment (4.2.4): Extracting archive
+  - Installing sebastian/diff (3.0.4): Extracting archive
+  - Installing sebastian/comparator (3.0.5): Extracting archive
+  - Installing phpunit/php-timer (2.1.3): Extracting archive
+  - Installing phpunit/php-text-template (1.2.1): Extracting archive
+  - Installing phpunit/php-file-iterator (2.0.5): Extracting archive
+  - Installing theseer/tokenizer (1.2.1): Extracting archive
+  - Installing sebastian/code-unit-reverse-lookup (1.0.2): Extracting archive
+  - Installing phpunit/php-code-coverage (6.1.4): Extracting archive
+  - Installing doctrine/instantiator (1.5.0): Extracting archive
+  - Installing phpspec/prophecy (v1.17.0): Extracting archive
+  - Installing phar-io/version (2.0.1): Extracting archive
+  - Installing phar-io/manifest (1.0.3): Extracting archive
+  - Installing myclabs/deep-copy (1.11.1): Extracting archive
+  - Installing phpunit/phpunit (7.5.20): Extracting archive
+  - Installing risul/laravel-like-comment (v2.0.1): Extracting archive
+  - Installing spatie/laravel-translatable (3.1.3): Extracting archive
+  - Installing yajra/laravel-datatables-oracle (v8.13.7): Extracting archive
+  - Installing laravelcollective/html (v5.7.1): Extracting archive
+  - Installing yajra/laravel-datatables-html (v4.30.0): Extracting archive
+  - Installing league/fractal (0.19.2): Extracting archive
+  - Installing yajra/laravel-datatables-fractal (v1.6.0): Extracting archive
+  - Installing yajra/laravel-datatables-editor (v1.25.4): Extracting archive
+  - Installing maatwebsite/excel (3.1.25): Extracting archive
+  - Installing yajra/laravel-datatables-buttons (v4.13.3): Extracting archive
+  - Installing yajra/laravel-datatables (v1.5.0): Extracting archive
+88 package suggestions were added by new dependencies, use `composer suggest` to see details.
+Package jakub-onderka/php-console-color is abandoned, you should avoid using it. Use php-parallel-lint/php-console-color instead.
+Package jakub-onderka/php-console-highlighter is abandoned, you should avoid using it. Use php-parallel-lint/php-console-highlighter instead.
+Package laravel/nexmo-notification-channel is abandoned, you should avoid using it. Use laravel/vonage-notification-channel instead.
+Package laravelcollective/html is abandoned, you should avoid using it. Use spatie/laravel-html instead.
+Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.
+Package symfony/debug is abandoned, you should avoid using it. Use symfony/error-handler instead.
+Package zendframework/zend-diactoros is abandoned, you should avoid using it. Use laminas/laminas-diactoros instead.
+Package fzaninotto/faker is abandoned, you should avoid using it. No replacement was suggested.
+Package phpunit/php-token-stream is abandoned, you should avoid using it. No replacement was suggested.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run ".\vendor\bin\upgrade-carbon" to get help in updating carbon and other frameworks and libraries that depend on it.
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 1
+
+C:\xampp\htdocs\taleem360localmoh>php artisan key:generate
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan config:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>composer self-update
+Upgrading to version 2.5.8 (stable channel).
+
+Unable to write "C:\ProgramData\ComposerSetup\bin\composer.phar". Access is denied.
+Complete this operation with Administrator privileges [Y,n]?
+Operation succeeded.
+Use composer self-update --rollback to return to version 2.5.5
+
+C:\xampp\htdocs\taleem360localmoh>yyphp artisan config:clear
+'yyphp' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\xampp\htdocs\taleem360localmoh>php artisan config:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan config:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan clear-compiled
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan optimize
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan cache:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan route:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan view:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan config:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>composer dump-autoload
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run ".\vendor\bin\upgrade-carbon" to get help in updating carbon and other frameworks and libraries that depend on it.
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 1
+
+C:\xampp\htdocs\taleem360localmoh>composer show --installed | grep mews/captcha
+'grep' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\xampp\htdocs\taleem360localmoh>composer require mews/captcha
+Info from https://repo.packagist.org: #StandWithUkraine
+./composer.json has been updated
+Running composer update mews/captcha
+Loading composer repositories with package information
+Updating dependencies
+Lock file operations: 1 install, 0 updates, 0 removals
+  - Locking mews/captcha (3.3.1)
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Downloading mews/captcha (3.3.1)
+  - Installing mews/captcha (3.3.1): Extracting archive
+Package jakub-onderka/php-console-color is abandoned, you should avoid using it. Use php-parallel-lint/php-console-color instead.
+Package jakub-onderka/php-console-highlighter is abandoned, you should avoid using it. Use php-parallel-lint/php-console-highlighter instead.
+Package laravel/nexmo-notification-channel is abandoned, you should avoid using it. Use laravel/vonage-notification-channel instead.
+Package laravelcollective/html is abandoned, you should avoid using it. Use spatie/laravel-html instead.
+Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.
+Package symfony/debug is abandoned, you should avoid using it. Use symfony/error-handler instead.
+Package zendframework/zend-diactoros is abandoned, you should avoid using it. Use laminas/laminas-diactoros instead.
+Package fzaninotto/faker is abandoned, you should avoid using it. No replacement was suggested.
+Package phpunit/php-token-stream is abandoned, you should avoid using it. No replacement was suggested.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run ".\vendor\bin\upgrade-carbon" to get help in updating carbon and other frameworks and libraries that depend on it.
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 1
+
+C:\xampp\htdocs\taleem360localmoh>
+C:\xampp\htdocs\taleem360localmoh>php artisan config:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan cache:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan route:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan view:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>php artisan config:clear
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+
+C:\xampp\htdocs\taleem360localmoh>composer update mews/captcha
+Loading composer repositories with package information
+Updating dependencies
+Nothing to modify in lock file
+Installing dependencies from lock file (including require-dev)
+Nothing to install, update or remove
+Package jakub-onderka/php-console-color is abandoned, you should avoid using it. Use php-parallel-lint/php-console-color instead.
+Package jakub-onderka/php-console-highlighter is abandoned, you should avoid using it. Use php-parallel-lint/php-console-highlighter instead.
+Package laravel/nexmo-notification-channel is abandoned, you should avoid using it. Use laravel/vonage-notification-channel instead.
+Package laravelcollective/html is abandoned, you should avoid using it. Use spatie/laravel-html instead.
+Package swiftmailer/swiftmailer is abandoned, you should avoid using it. Use symfony/mailer instead.
+Package symfony/debug is abandoned, you should avoid using it. Use symfony/error-handler instead.
+Package zendframework/zend-diactoros is abandoned, you should avoid using it. Use laminas/laminas-diactoros instead.
+Package fzaninotto/faker is abandoned, you should avoid using it. No replacement was suggested.
+Package phpunit/php-token-stream is abandoned, you should avoid using it. No replacement was suggested.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run ".\vendor\bin\upgrade-carbon" to get help in updating carbon and other frameworks and libraries that depend on it.
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+
+In UrlGenerator.php line 120:
+
+  Argument 2 passed to Illuminate\Routing\UrlGenerator::__construct() must be an instance of Illuminate\Http\Request, null given, called in C:\xampp\htdocs\taleem360
+  localmoh\vendor\laravel\framework\src\Illuminate\Routing\RoutingServiceProvider.php on line 62
+
+
+Script @php artisan package:discover --ansi handling the post-autoload-dump event returned with error code 1
+
+C:\xampp\htdocs\taleem360localmoh>
